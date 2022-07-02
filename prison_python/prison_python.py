@@ -19,7 +19,7 @@ def random_algorithm(verbose, size):
         for choice in choices:
             #import ipdb; ipdb.set_trace()
             if verbose:
-                print("Trying Choice:", choice)
+                print("Trying Choice:", choice, "Contains:", boxes[choice])
             if boxes[choice] == prisoner:
                 if verbose:
                     print("Success Prisoner:", prisoner)
